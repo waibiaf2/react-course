@@ -1,6 +1,6 @@
 import ExpenseItem from "./ExpenseItem";
 
-function Expense(props) {
+const Expense = (props) => {
     return (
         <ExpenseItem
             amount={props.expense.amount}

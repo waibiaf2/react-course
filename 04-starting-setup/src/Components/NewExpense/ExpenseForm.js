@@ -57,7 +57,6 @@ const ExpenseForm = (props) => {
         setEnteredTitle('');
         setEnteredAmount('');
         setEnteredDate('');
-
         //console.log(expenseDate);
     };
 

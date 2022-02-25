@@ -25,6 +25,7 @@ function App() {
         },
     ];
 
+
     const [expenses, setExpenses] = useState(DummyExpenses);
 
     const saveExpenseHandler = (expenseData) => {

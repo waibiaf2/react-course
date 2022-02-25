@@ -47,7 +47,7 @@ const ExpenseForm = (props) => {
         const expenseData = {
             title: enteredTitle,
             amount: enteredAmount,
-            date: new Date(enteredData),
+            date: new Date(enteredDate),
         }
 
         /*Calls the prop from the parent component*/

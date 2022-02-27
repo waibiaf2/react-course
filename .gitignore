@@ -1,6 +1,6 @@
 .idea/*
 01-starting-setup/node_modules/*
 04-starting-setup/node_modules/*
-/04-starting-setup/node_modules/
-/06-starting-project/node_modules/
-/07-starting-project/node_modules/
+/04-starting-setup/node_modules/*
+/06-starting-project/node_modules/*
+/07-starting-project/node_modules/*

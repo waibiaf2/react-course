@@ -20,11 +20,22 @@ const AddUser = props => {
 
     const addUserHandler = (e) => {
         e.preventDefault();
-        if(enteredUserName=== '' && enteredUserAge < 1) {
+
+        if (enteredUserName.trim().length === 0 || enteredUserAge.trim().length === 0) {
             console.log('Username or age is empty');
+            return
+        }
+
+        if (+enteredUserAge < 1) {
+            return
         }
 
         console.log(enteredUserName, enteredUserAge);
+
+        props.onAddNewUser({
+            name: enteredUserName,
+            age: enteredUserAge,
+        });
 
         setEnteredUserName('');
         setEnteredAge('');
@@ -51,4 +62,4 @@ const AddUser = props => {
     );
 };
 
-export  default AddUser;
+export default AddUser;

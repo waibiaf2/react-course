@@ -8,10 +8,15 @@ const UserList = props => {
     return (
         <Card className={classes.users}>
             {
-                props.users.map(user => <User name={user.name} age={user.age}/ id={user.id}>)
+                props.users.map(user =>
+                    <User
+                        name={user.name}
+                        age={user.age}
+                        id={user.id}
+                    />)
             }
         </Card>
     );
 }
 
-export  default UserList;
+export default UserList;

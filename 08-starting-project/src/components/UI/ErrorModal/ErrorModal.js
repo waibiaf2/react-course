@@ -20,7 +20,6 @@ const ErrorModal = props => {
             </Card>
         </div>
     );
-
 };
 
 export default ErrorModal;

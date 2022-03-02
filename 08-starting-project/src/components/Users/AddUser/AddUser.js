@@ -79,7 +79,6 @@ const AddUser = props => {
             </Card>
 
         </div>
-
     );
 };
 

@@ -12,11 +12,13 @@ const AddUser = props => {
 
     const nameChangeHandler = (e) => {
         setEnteredUserName(e.target.value);
+
     };
 
     const ageChangeHandler = (e) => {
         setEnteredAge(e.target.value);
     };
+
 
     const addUserHandler = (e) => {
         e.preventDefault();

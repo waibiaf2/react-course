@@ -28,7 +28,6 @@ const AddUser = props => {
                 title: 'Invalid Input',
                 message: ' Please enter a valid name and age (non-empty valules)'
             });
-
             console.log('Username or age is empty');
             return
         }
@@ -77,7 +76,6 @@ const AddUser = props => {
                     <Button type="submit">Add User</Button>
                 </form>
             </Card>
-
         </div>
     );
 };
